@@ -1,4 +1,5 @@
-# Название
+# Шаблонный проект html, css, JavaScript и jQuery
+
  
 # Ветки
 - main
