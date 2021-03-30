@@ -1,9 +1,17 @@
-# Шаблонный проект html, css, JavaScript и jQuery
+# Шаблонный проект html, css, JavaScript и jQuery, PHP, MySQL
+После установки вы получите html, css, jQuery шаблон сайта.
+Папка media\pages с примерами API JavaScript. Рассматриваются такие API, как
+- animation
+- canvas
+- dragAndDrop
+- и другие.
 
+# Информация по установке
+- клонировать проект в папку domains сервера https://github.com/mikhalkevich/cow_php_mysql.git
+- в PHPMyAdmin создать базу с именем cow
+- перейти в базу cow
+- импорт файла cow.sql
  
-# Ветки
-- main
-- cow 
  
 # Система контроля версий (подсказки)
 - перейти в папку с проектом
@@ -22,3 +30,10 @@
 - git add *
 - git commit -m "any commit"
 - git push
+
+# Статические страницы
+- создать базу данных utf8-general-ci
+- таблица: маленькими буквами, без проблелов, без тире, с буквой "s" в конце имени, id(AI)
+- типы таблиц: CSV, archive, memory, MyISAM, InnoDB
+- подключение к базе, файл config.php
+- запрос: строка запроса, выполнение запроса
